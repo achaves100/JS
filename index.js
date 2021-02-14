@@ -7,6 +7,6 @@ function generator () {
         who[Math.floor(Math.random() * who.length)] + " " +
         action[Math.floor(Math.random() * action.length)] + " " +
         when[Math.floor(Math.random() * when.length)];
-    document.querySelector("#excuse").innerHTML=msg;
+        document.querySelector("#excuse").innerHTML=msg;
     }
     console.log(generator());
